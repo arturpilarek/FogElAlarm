@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <script
+      src="https://kit.fontawesome.com/af4e7a822b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="ring">
+        <i class="fas fa-phone-alt"></i>
+        <p>Ring til os 60 50 20 10</p>
+      </div>
+      <div class="hero">
+        <img src="assets/Fog_logo.png" alt="logo" class="navigation__logo" />
+        <nav class="nav__wide">
+          <ul class="nav__list">
+            <li><a href="#">Forside</a></li>
+            <li><a href="#">Kompetancer</a></li>
+            <li><a href="#">Om os</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger--visibilty">
+          <button class="hamburger hamburger--active">
+            <span class="hamburger__box">
+              <span class="hamburger__inner"></span>
+            </span>
+          </button>
+          <div class="navigation navigation--active">
+            <ul class="navigation__list">
+              <li class="navigation__item"><a href="#">Forside</a></li>
+              <li class="navigation__item"><a href="#">Kompetancer</a></li>
+              <li class="navigation__item"><a href="#">Om os</a></li>
+              <li class="navigation__item"><a href="#">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <h2>Beskyt det, der betyder mest.</h2>
+        <p>
+          Uventet betyder ikke umuligt. En lille smule forberedelse<br> kan tilbyde
+          betydelig beskyttelse for din familie,<br> dit hjem eller din virksomhed
+          til en overkommelig pris.
+        </p>
+        <a href="#" class="intro__button">Se tyvesikring & alarmsystemer</a>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
 </html>

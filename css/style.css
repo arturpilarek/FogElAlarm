@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Ring til os section */
+
+.ring {
+    height: 40px;
+    background-color: #A69E65;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ring p, .ring i {
+    color: #231F55;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Header and navigation  */
+.hero {
+    display: flex;
+    height: 111px;
+}
+
+.hero img {
+    height: 111px;
+    width: 192px;
+}
+
+.nav__wide {
+    margin-top: 0;
+    display: block;
+    width: 100vw;
+    font-size: 20px;
+}
+
+.nav__list {
+    height: 111px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav__list li {
+    list-style: none;
+}
+
+/* Intro picture  */
+
+.intro {
+    background-image: url(../assets/heroimage.png);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.intro h2 {
+    margin-bottom: 8px;
+}
+
+.intro__button {
+    margin-top: 32px;
+    text-decoration: none;
+    color: white;
+    background-color: #A69E65;
+    padding: 15px;
+    border-radius: 22px;
+}
+

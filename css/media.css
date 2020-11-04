@@ -1,0 +1,14 @@
+
+
+@media screen and (min-width: 660px) {
+    .hamburger--visibilty {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 660px) {
+    .nav__wide {
+        display: none;
+    }
+}
