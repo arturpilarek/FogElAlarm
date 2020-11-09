@@ -13,10 +13,16 @@
     align-items: center;
 }
 
-.ring p, .ring i {
+.ring i {
     color: #231F55;
-    margin-right: 10px;
     font-size: 18px;
+    margin-right: 5px;
+}
+
+.ring p {
+    color: #231F55;
+    font-size: 18px;
+    margin-right: 2%;
 }
 
 /* Header and navigation  */
@@ -35,6 +41,10 @@
     display: block;
     width: 100vw;
     font-size: 20px;
+}
+
+.chose {
+    color: grey;
 }
 
 .nav__list {
@@ -75,3 +85,143 @@
     border-radius: 22px;
 }
 
+.we-offer {
+    background-color: #231F55;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.we-offer h2 {
+    margin-top: 10px;
+}
+
+.we-offer p {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.we-offer__gallery {
+    display: grid;
+    margin-top: 15px;
+    margin: 5px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 1fr 1fr;
+    gap: 13px;
+    align-content: center;
+    justify-items: center;
+
+}
+
+.we-offer__gallery-item {
+    background-color: #F4EAEA;
+    color: #231F55;
+    object-fit: scale-down;
+    border-radius: 16px;
+    width: 40vw;
+}
+
+.we-offer__gallery-item p {
+    height: 20px;
+}
+
+.margin__adjust {
+    margin-bottom: 15px;
+}
+
+.we-offer__gallery-item img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    height: 18vh
+}
+
+/* Form */
+
+.form {
+    background-color: #231F55;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.form h2 {
+    color: white;
+    text-align: center;
+}
+
+input, textarea  {
+    margin-top: 10px;
+}
+
+input {
+    height: 28px;
+}
+
+.form__button {
+    color: white;
+    background-color: #A69E65;
+    border: none;
+    border-radius: 32px;
+    width: 160px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+/* Aside  */
+
+ .ad {
+     background-image: url(../assets/fogelbil.jpg);
+     height: 33vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: flex;
+     align-items: flex-end;
+     margin-top: 15px;
+ }
+
+
+ .ad a {
+    text-decoration: none;
+    color: white;
+    background-color: #A69E65;
+    padding: 15px;
+    border-radius: 22px;
+    margin: 0 auto; 
+    margin-bottom: 15px;
+ }
+
+ /* Footer */
+
+
+.footer {
+    background-color: #A69E65;
+    margin-top: 15px;
+    color: #231F55;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.footer__left img{
+    height: 60px;
+    width: 110px;
+}
+
+.footer__middle {
+    font-size: 17px;
+}
+
+.footer__right {
+    font-size: 38px;
+}
