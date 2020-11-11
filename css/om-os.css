@@ -1,0 +1,46 @@
+.cover {
+  background-image: url(../assets/cover2.png);
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cover h1 {
+  color: white;
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 660px) {
+  .cover {
+    height: 400px;
+  }
+}
+
+.om-os {
+  font-size: 18px;
+  background-color: #F1F1F1;
+  padding: 25px;
+}
+
+.om-os li {
+  width: 100%;
+  font-size: 18pxpx;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+h2 {
+    color: #A69E65;
+    padding: 16px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    padding: 16px;
+}

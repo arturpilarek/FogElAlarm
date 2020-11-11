@@ -38,7 +38,7 @@
     }
 
     .wide__container {
-        width: 95vw;
+        width: 95%;
         display: flex;
         justify-content: center;
         margin: 0 auto;;
@@ -55,11 +55,18 @@
     }
 
     .ad {
-        width: 95vw;
+        width: 95%;
         margin: 0 auto;
         margin-top: 10px;
         height: 40vh;
     }
+
+    .cover, .om-os {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+
 
 }
 
