@@ -1,0 +1,56 @@
+body {
+    overflow-x: hidden; 
+}
+
+.kompetencer-text {
+    font-size: 18px;
+    background-color: #F1F1F1;
+    padding: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kompetencer {
+    background-color: #F1F1F1;
+    color: #231F55;
+}
+
+.kompetencer-gallery-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.alarm-wrapper {
+    width: 100vw;
+}
+
+.alarmer {
+    background-color:#231F55;
+    color: white;
+}
+.alarmer h2 {
+    color: white;
+}
+
+
+.kompetencer-gallery {
+    display: grid;
+    margin-top: 15px;
+    margin: 5px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 1fr 1fr;
+    gap: 13px;
+    align-content: center;
+    justify-items: center;
+}
+
+
+.alarmer h2, .kompetencer h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+p {
+    font-size: 20px;
+}

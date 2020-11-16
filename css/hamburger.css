@@ -72,7 +72,7 @@
 .navigation {
     height: 200px;
     width: 160px;
-    background-color:#A69E65;
+    background-color:#f3a712;
     position: absolute;
     right: 0;
     top: 151px;
@@ -93,14 +93,23 @@
     list-style: none;
     margin: 20px 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .navigation__item {
     margin-bottom: 20px;
 }
 
-    a {
+   .navigation__list a {
         text-decoration: none;
-        color: #231F55;
+        color: white;
     }
 
+    .nav_list a {
+      color: #231F55;
+      text-decoration: none;
+    }
+
+    .chose {
+      color: #231F55 ;
+    }

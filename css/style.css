@@ -4,14 +4,15 @@
     font-family: Real Time;
 }
 
+body {
+    overflow-x: hidden; 
+}
+
 @font-face {
     font-family: Real Time;
     src: url("../Juri\ Zaech\ -\ Realtime\ Text\ Black.otf") ;
 }
 
-@font-face {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 /* Ring til os section */
 
@@ -21,7 +22,7 @@ p {
 
 .ring {
     height: 40px;
-    background-color: #A69E65;
+    background-color: #f3a712;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -57,9 +58,7 @@ p {
     font-size: 20px;
 }
 
-.chose {
-    color: grey;
-}
+
 
 .nav__list {
     height: 111px;
@@ -68,8 +67,25 @@ p {
     align-items: center;
 }
 
+.nav__list a {
+    text-decoration: none;
+    color: #231F55;
+}
+
+.chose {
+    color: grey !important;
+}
+
 .nav__list li {
     list-style: none;
+}
+
+.nav__list a:hover {
+    color: #A98DBA;
+}
+
+.navigation__list a:hover {
+    color: #A98DBA;
 }
 
 /* Intro picture  */
@@ -94,7 +110,7 @@ p {
     margin-top: 32px;
     text-decoration: none;
     color: white;
-    background-color: #A69E65;
+    background-color: #f3a712;
     padding: 15px;
     border-radius: 22px;
 }
@@ -131,8 +147,7 @@ p {
     background-color: #F4EAEA;
     color: #231F55;
     object-fit: scale-down;
-    border-radius: 16px;
-    width: 40vw;
+    width: 35vw;
 }
 
 .we-offer__gallery-item p {
@@ -145,8 +160,7 @@ p {
 
 .we-offer__gallery-item img {
     width: 100%;
-    border-radius: 16px 16px 0 0;
-    height: 18vh
+    height: 16vh
 }
 
 /* Form */
@@ -181,7 +195,7 @@ input {
 
 .form__button {
     color: white;
-    background-color: #A69E65;
+    background-color: #f3a712;
     border: none;
     border-radius: 32px;
     width: 160px;
@@ -190,6 +204,7 @@ input {
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
@@ -210,7 +225,7 @@ input {
  .ad a {
     text-decoration: none;
     color: white;
-    background-color: #A69E65;
+    background-color: #f3a712;
     padding: 15px;
     border-radius: 22px;
     margin: 0 auto; 
@@ -218,21 +233,13 @@ input {
  }
 
 
- .kasse {
-    background-color: yellow;
-    border: 2px red solid;
-    height: 50px;
-    width: 50px;
-    margin-bottom: 32px;
- }
-
  /* Footer */
 
 
 .footer {
-    height: 100px;
-    background-color: #A69E65;
-    margin-top: 15px;
+    height: 130px;
+    background-color: #f3a712;
+    margin-top: 10px;
     color: #231F55;
     display: flex;
     justify-content: space-evenly;
@@ -242,6 +249,7 @@ input {
 .footer__left img{
     height: 80px;
     width: 130px;
+    display: none;
 }
 
 .footer__middle {
@@ -251,3 +259,9 @@ input {
 .footer__right {
     font-size: 38px;
 }
+
+.footer__middle-left {
+    margin-left: 20px;
+}
+
+

@@ -1,3 +1,4 @@
+
 .cover {
   background-image: url(../assets/cover2.png);
   height: 250px;
@@ -16,7 +17,7 @@
 
 @media screen and (min-width: 660px) {
   .cover {
-    height: 400px;
+    height: 300px;
   }
 }
 
@@ -35,12 +36,39 @@
 
 
 h2 {
-    color: #A69E65;
+    color:#231F55;
     padding: 16px;
     font-size: 30px;
-    text-align: center;
 }
 
-p {
+.om-os p {
     padding: 16px;
 }
+
+.anmeldelser {
+  background-color: #F1F1F1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.anmeldelser h2 {
+  color:  #231F55;
+}
+
+
+.anmeldelser img {
+  width: 80%;
+  margin: 10px;
+  height: auto;
+
+}
+
+form {
+
+  margin-top: 0px;
+
+}
+
+

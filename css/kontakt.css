@@ -1,0 +1,38 @@
+.form {
+    background-color: #F1F1F1;
+}
+
+.kontakt-info {
+    font-size: 18px;
+    background-color: #F1F1F1;
+    padding: 16px;
+}
+
+.kontakt-info p {
+    margin-top: 10px;
+}
+
+.kontakt-info h2 {
+    padding: 0;
+}
+
+.map-responsive {
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.kontakt-image {
+    background-image: url(../assets/kontaktbillede.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.kontakt-image h2 {
+    color: white;
+}

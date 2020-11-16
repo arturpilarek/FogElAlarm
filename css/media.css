@@ -20,7 +20,7 @@
     }
 
     .we-offer__gallery-item {
-        width: 16vw;
+        width: 18vw;
     }
 
     .we-offer__gallery-item img {
@@ -67,6 +67,97 @@
     }
 
 
+    /* Om os */
+
+    .om-os-wrapper, .kontakt-wrapper {
+        display: flex;
+        margin: 2.5%;
+    }
+
+    .anmeldelser {
+        margin-top: 0;
+        margin-left: 2.5%;
+        padding: 16px;
+    }
+
+
+    /* Kontakt */
+    .kontakt-form {
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .kontakt-info {
+        width: 50%;
+        margin-right: 2%;
+    }
+
+    .map-responsive {
+        width: 50%;
+        margin: 0 auto;
+        background-color: #F1F1F1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .kontakt-image {
+        width: 50%;
+        margin-left: 2%;
+        height: 390px;
+        margin-top: 0;
+    }
+
+    /* Kompetencer */
+
+    .kompetencer-text {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+
+    .alarm-wrapper {
+        display:flex;
+        width: 95%;
+        margin: 0 auto;
+        height: 60vh;
+    }
+
+
+.kompetencer-gallery {
+    display: grid;
+    
+    margin: 5px;
+    margin-top: 13%;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 1fr 1fr;
+    gap: 13px;
+    align-content: center;
+    justify-items: center;
+    height: 200px;
+    
+}
+
+.kompetencer-gallery-item img {
+    width: 150px;
+    height: 150px;
+}
+
+.alarmer {
+    background-color:#231F55;
+    width: 50vw;
+    color: white;
+    margin-left: 1.25%;
+}
+
+.kompetencer {
+    background-color: #F1F1F1;
+    width: 50vw;
+}
+
+.footer__left img {
+    display: block;
+}
 
 }
 
@@ -80,4 +171,6 @@
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
     }
+
+
 }
