@@ -24,6 +24,7 @@
 
 
 .kontakt-image {
+      /* Jeg selv har redigeret billedet paa photoshop, men kilde billede kommer fra Fog El & Alarm Facebook */
     background-image: url(../assets/kontaktbillede.png);
     background-position: center;
     background-size: cover;
